@@ -32,13 +32,13 @@ public class BrazilianTelefoneImplementation extends Telefone {
                 .anyMatch(this::compareDDDCorrenteComDDDPermitidos);
 
     }
-    public Boolean numeroSemDDDValido(){
+    private Boolean numeroSemDDDValido(){
         if (this.isMobile)
             return this.telefoneSemDDDValido();
         return this.telefoneResidencialSemDDDValido();
     }
 
-    public Boolean telefoneSemDDDValido(){
+    private Boolean telefoneSemDDDValido(){
         return this.telefoneTamanhoValido() && this.telefonePrimeiroDigitoValido() && this.telefoneSegundoDigitoValido();
     }
     private Boolean telefoneResidencialSemDDDValido(){
@@ -62,19 +62,19 @@ public class BrazilianTelefoneImplementation extends Telefone {
         return false;
     }
 
-    public Boolean telefoneTamanhoValido(){
+    private Boolean telefoneTamanhoValido(){
         if(this.numeroSemDDD.length() == TAMANHO_NUMERO_PERMITIDO)
             return true;
         this.errorMensagemEmPropriedadesValidacao = "Telefone (SEM DDD) não válido";
         return false;
     }
-    public Boolean telefonePrimeiroDigitoValido(){
+    private Boolean telefonePrimeiroDigitoValido(){
         if(this.numeroSemDDD.startsWith(PRIMEIRO_NUMERO_TELEFONE_PERMITIDO))
             return true;
         this.errorMensagemEmPropriedadesValidacao = "Telfone primeiro digito não valido, tente começar com " + PRIMEIRO_NUMERO_TELEFONE_PERMITIDO;
         return false;
     }
-    public Boolean telefoneSegundoDigitoValido(){
+    private Boolean telefoneSegundoDigitoValido(){
         return SEGUNDO_NUMERO_TELEFONE_PERMITIDO.stream()
                 .anyMatch(this::compareSegundoDigitoComValorPermitido);
     }
