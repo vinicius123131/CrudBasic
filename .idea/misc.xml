@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/basic_crud_core/pom.xml" />
+        <option value="$PROJECT_DIR$/basic_crud_plugins/pom.xml" />
       </list>
     </option>
   </component>
