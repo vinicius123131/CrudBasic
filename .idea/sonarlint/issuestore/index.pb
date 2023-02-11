@@ -1,6 +1,4 @@
 
-v
-Fbasic_crud_core/src/main/java/com/vinicius123131/entities/Usuario.java,5/4/541a5f36222f85ab09781eda1c480ab86256d3aa
 w
 Gbasic_crud_core/src/main/java/com/vinicius123131/entities/Telefone.java,e/6/e601033b376b174373784999e4d0d43d87137875
 t
@@ -31,3 +29,9 @@ ybasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/facto
 }basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/ports/PesquisaUsuarioPorIdPort.java,a/a/aa95d8b797939b400ac393242a5892663a8027cb
 Å
 ”basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/exceptions/UsuarioNaoEncontradoAoBuscarPorIdException.java,5/a/5a9941f044793a9750590c8f7d2cd7343fb07db4
+¯
+basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/BuscarUsuarioPorIdImplementation.java,6/8/68354681bdff7e534d80f5099c9adb26ccc875c0
+‘
+abasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/BuscarUsuarioPorId.java,4/8/48704e8097aada19ce479e22fd6a7906a4332945
+Ž
+^basic_crud_plugins/src/main/java/com/vinicius123131/rest_configurations/ExceptionHandlers.java,a/2/a2c17a63ea657dc64f7165df4c6b2588cf4639b3
