@@ -13,8 +13,6 @@ sbasic_crud_core/src/main/java/com/vinicius123131/entities/implementations/valid
 obasic_crud_core/src/main/java/com/vinicius123131/entities/implementations/exceptions/CriptografiaException.java,6/9/696213b80d1611a14aabb1496f892182acc5374c
 ’
 bbasic_crud_core/src/main/java/com/vinicius123131/entities/implementations/EmailImplementation.java,0/7/0710b4739628f2f7c978c3e1441406a92cf17dfe
-«
-{basic_crud_core/src/main/java/com/vinicius123131/use_cases/criar_novo_usuario/factories/CriarNovoUsuarioUseCaseFactory.java,5/6/560deb50a4ed8871dfe01c1eb8d85b36e87d172d
 Ç
 –basic_crud_core/src/main/java/com/vinicius123131/use_cases/criar_novo_usuario/implementations/exceptions/UsuarioComPropriedadesInvalidasException.java,3/d/3de0b7f7f9f51e00aba154ac03373dde3dae4da3
 “
@@ -33,5 +31,27 @@ ybasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/facto
 basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/BuscarUsuarioPorIdImplementation.java,6/8/68354681bdff7e534d80f5099c9adb26ccc875c0
 ‘
 abasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/BuscarUsuarioPorId.java,4/8/48704e8097aada19ce479e22fd6a7906a4332945
+|
+Lbasic_crud_plugins/src/main/java/com/vinicius123131/BasicCrudPluginsApp.java,6/7/67f8a9bb7cc6e4a7ad7c878bff092986ab6db7cf
+v
+Fbasic_crud_core/src/main/java/com/vinicius123131/entities/Usuario.java,5/4/541a5f36222f85ab09781eda1c480ab86256d3aa
+J
+basic_crud_plugins/pom.xml,f/9/f942605cc6693ec43f9e7193a8c0929000bef524
+ 
+pbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/SaltTableEntity.java,9/1/913d8d43611260b32573eec67811c9ecfa194150
+¢
+rbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/SecretTableEntity.java,5/4/546919d59fe188907bca40c50ea6999ecc737b04
+£
+sbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/UsuarioTableEntity.java,8/d/8d8acffb7ee530dcf4ace1e019dbadfafba8b050
+®
+~basic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/mappers/SaltTableEntityMapper.java,3/0/3057cab2670affb09665f19aad981b6319b3b2de
+«
+{basic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/repositories/UsuarioTableEntityRepository.java,2/5/256c6b56b6c3da80938c2a4251338f662ab74506
+ª
+zbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/repositories/SecretTableEntityRepository.java,a/f/af432fe75270e705a6fa2818bd4402380827bc94
+¨
+xbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/repositories/SaltTableEntityRepository.java,b/4/b409a5b05d1b8f08270ee5d3316ac4f87286d339
+†
+Vbasic_crud_plugins/src/main/java/com/vinicius123131/rest_configurations/Resources.java,0/9/09b4701e8c614592898a3955ef62631bc8d2849f
 Ž
 ^basic_crud_plugins/src/main/java/com/vinicius123131/rest_configurations/ExceptionHandlers.java,a/2/a2c17a63ea657dc64f7165df4c6b2588cf4639b3

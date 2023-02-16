@@ -32,8 +32,13 @@ public class BrazilianTelefoneImplementation extends Telefone {
                 .anyMatch(this::compareDDDCorrenteComDDDPermitidos);
 
     }
+    private Boolean isMobileFuncion(){
+        if (DDDValido())
+            return true;
+        return false;
+    }
     private Boolean numeroSemDDDValido(){
-        if (this.isMobile)
+        if (isMobileFuncion())
             return this.telefoneSemDDDValido();
         return this.telefoneResidencialSemDDDValido();
     }
