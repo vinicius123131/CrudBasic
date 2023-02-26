@@ -21,16 +21,6 @@ cbasic_crud_core/src/main/java/com/vinicius123131/use_cases/criar_novo_usuario/C
 Åbasic_crud_core/src/main/java/com/vinicius123131/use_cases/criar_novo_usuario/implementations/CriarNovoUsuarioImplementation.java,f/a/fa028f21ae84b3ebfcc7f52cab50c7394d2c14fe
 ≤
 Åbasic_crud_core/src/main/java/com/vinicius123131/use_cases/criar_novo_usuario/implementations/ports/ArmazenamentoUsuarioPort.java,5/4/541b0d6c072a24b53e1dcfd11c9dcecdbac24471
-©
-ybasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/factories/BuscarUsuarioPorIdUseCaseFactory.java,3/c/3cc36599b620eaca8ea1a3927a7fbfa02a53865a
-≠
-}basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/ports/PesquisaUsuarioPorIdPort.java,a/a/aa95d8b797939b400ac393242a5892663a8027cb
-≈
-îbasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/exceptions/UsuarioNaoEncontradoAoBuscarPorIdException.java,5/a/5a9941f044793a9750590c8f7d2cd7343fb07db4
-Ø
-basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/BuscarUsuarioPorIdImplementation.java,6/8/68354681bdff7e534d80f5099c9adb26ccc875c0
-ë
-abasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/BuscarUsuarioPorId.java,4/8/48704e8097aada19ce479e22fd6a7906a4332945
 |
 Lbasic_crud_plugins/src/main/java/com/vinicius123131/BasicCrudPluginsApp.java,6/7/67f8a9bb7cc6e4a7ad7c878bff092986ab6db7cf
 v
@@ -55,3 +45,7 @@ xbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/re
 Vbasic_crud_plugins/src/main/java/com/vinicius123131/rest_configurations/Resources.java,0/9/09b4701e8c614592898a3955ef62631bc8d2849f
 é
 ^basic_crud_plugins/src/main/java/com/vinicius123131/rest_configurations/ExceptionHandlers.java,a/2/a2c17a63ea657dc64f7165df4c6b2588cf4639b3
+≤
+Åbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/mappers/UsuarioTableEntityMapper.java,8/b/8baabb9a4df19a85c508e12a86a4e85427edbaae
+±
+Äbasic_crud_plugins/src/main/java/com/vinicius123131/data_base_configurations/table_entities/mappers/SecretTableEntityMapper.java,9/4/94c925f0d230dab0a806278e5c6e883b81e4a44b
