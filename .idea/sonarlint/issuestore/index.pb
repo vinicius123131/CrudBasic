@@ -77,8 +77,6 @@ dbasic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/Busca
 ‚basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/implementations/BuscarTodosOsUsuariosImplementation.java,e/d/ed7008afe4f1c312db22aba16ba8d7307c94bd5e
 ¬
 |basic_crud_core/src/main/java/com/vinicius123131/use_cases/buscar_usuario/factories/BuscarTodosOsUsuariosUseCaseFactory.java,d/b/dbef4794e268c3545f6dc6ce1d19770283626206
-±
-€basic_crud_core/src/main/java/com/vinicius123131/use_cases/apagar_usuario_por_id/factories/ApagarUsuarioPorIdUseCaseFactory.java,7/9/79530ae67e18ad7026584228cdb3cc284e336880
 ˜
 hbasic_crud_core/src/main/java/com/vinicius123131/use_cases/apagar_usuario_por_id/ApagarUsuarioPorId.java,a/2/a23bcf98f1de4b5d9f1a871755511a6705662c17
 ¯
