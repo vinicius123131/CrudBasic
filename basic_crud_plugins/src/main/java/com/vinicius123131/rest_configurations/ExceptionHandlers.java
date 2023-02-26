@@ -1,5 +1,6 @@
 package com.vinicius123131.rest_configurations;
 
+import com.vinicius123131.use_cases.buscar_usuario.implementations.exceptions.UsuarioNaoEncontradoAoBuscarPorIdException;
 import com.vinicius123131.use_cases.criar_novo_usuario.implementations.exceptions.UsuarioComPropriedadesInvalidasException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,6 +14,11 @@ public class ExceptionHandlers {
     @ExceptionHandler(UsuarioComPropriedadesInvalidasException.class)
     public ResponseEntity<ExceptionHandlerMessage> handler(UsuarioComPropriedadesInvalidasException exception){
         return ResponseEntity.status(400).body(new ExceptionHandlerMessage(exception.getMessage()));
+    }
+
+    @ExceptionHandler(UsuarioNaoEncontradoAoBuscarPorIdException.class)
+    public ResponseEntity<ExceptionHandlerMessage> handle(UsuarioNaoEncontradoAoBuscarPorIdException exception){
+        return ResponseEntity.status(404).body(new ExceptionHandlerMessage(exception.getMessage()));
     }
     @AllArgsConstructor
     @Getter
